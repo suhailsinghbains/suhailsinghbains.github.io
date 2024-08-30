@@ -1,0 +1,547 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <!-- Materialize CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <!-- Material Icons -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!-- CSS Style -->
+    <style>
+        /* Add your custom CSS styles here */
+        /* Loader Styles */
+        .preloader-background {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            position: fixed;
+            z-index: 100;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-color: rgba(255, 255, 255, 0.7);
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="preloader-background">
+        <div class="preloader-wrapper big active">
+            <div class="spinner-layer spinner-blue-only">
+                <div class="circle-clipper left">
+                    <div class="circle"></div>
+                </div>
+                <div class="gap-patch">
+                    <div class="circle"></div>
+                </div>
+                <div class="circle-clipper right">
+                    <div class="circle"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Materialize JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <!-- Custom Script -->
+    <script>
+        // Hide loader when the page is fully loaded
+        document.addEventListener("DOMContentLoaded", function () {
+            setTimeout(function () {
+                var preloader = document.querySelector(".preloader-background");
+                preloader.style.display = "none";
+                document.querySelector(".container").style.display = "block";
+            }, 900); // Set the time as per your requirement
+        });
+    </script>
+    <!-- Navbar -->
+    <nav>
+        <div class="nav-wrapper">
+            <a href="#" class="brand-logo" style="left: 44%;">Suhail Singh Bains</a>
+            <ul id="nav-mobile" class="right hide-on-med-and-down">
+                <li><a href="https://www.linkedin.com/in/suhailsinghbains/" target="_blank">LinkedIn</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Profile Information -->
+    <div class="container">
+
+        <div class="row">
+            <div class="col s12 m6 offset-m3">
+                <div class="card">
+                    <div class="card-image">
+                        <img src="./pexels-mikhail-nilov-7988742.jpg">
+                        <span class="card-title">
+                            <a>
+                                <b style="background-color: rgba(0,0,0,0.5);
+
+                    padding: 0em;" class="white-text">
+                                    Looking for <br>Front End Developer Roles
+                                </b>
+                            </a>
+                        </span>
+                    </div>
+                    <div class="card-content">
+                        <p>Experience of 4 years in Front End Development and Design</p>
+                        <p>Location: Toronto, Ontario, Canada</p>
+                        <p>Mobile: +1 6478714292</p>
+                        <p>Email: bains.singh.suhail@gmail.com</p>
+                        <p>GitHub: <a href="https://github.com/suhailsinghbains"
+                                target="_blank">https://github.com/suhailsinghbains</a>
+                        </p>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+
+
+        <!-- Professional Experience -->
+        <h5>PROFESSIONAL EXPERIENCE</h5>
+        <div class="row">
+            <div class="col s12 m4">
+                <div class="card-panel teal">
+                    <span class="white-text">
+                        <p>
+                            <b>Title: Site Reliability Engineering Specialist Student</b>
+                            <br>
+                            Sep 2022 – Apr 2023
+                            <br>
+                            <b>Organization: Blackberry, Waterloo, ON</b>
+                            <br>
+                            <b>Tech Stack: Linux, Terraform, Scripting, JIRA, Confluence, Git, GitLab CI/CD, Jenkins</b>
+                            <br>
+                            <br> • Designed and implemented a Confluence and JIRA Automation application, optimizing
+                            internal
+                            documentation processes and task management through Bash/Python and GitLab CI/CD pipelines.
+                            <br> • Led the foundational work for a crucial Ubuntu OS upgrade, evaluating component
+                            compatibility
+                            for five products and creating comprehensive documentation for future reference;
+                            Successfully
+                            guided a colleague through the upgrade process, leveraging a detailed upgrade document, and
+                            executed Jenkins for thorough production testing.
+                        </p>
+                    </span>
+                </div>
+            </div>
+            <div class="col s12 m4">
+                <div class="card-panel teal">
+                    <span class="white-text">
+                        <p>
+                            <b>Title: Developer</b>
+                            <br>
+                            Nov 2021 – May 2022
+                            <br>
+                            <b>Organization: Google Developer Student Club, Windsor, ON</b>
+                            <br>
+                            <b>Tech Stack: Angular JS, HTML, CSS, JavaScript, RESTful APIs, JSON, Bootstrap, Git,
+                                GitHub,
+                                AJAX,</b>
+                            <br>
+                            <br> • Designed and developed a Multicultural Center COVID-19 Screening Application for
+                            seamless
+                            integration with the official Ontario COVID-19 page, aligning with the existing website's
+                            user
+                            interface.
+
+                        </p>
+                    </span>
+                </div>
+            </div>
+
+            <div class="col s12 m4">
+                <div class="card-panel teal">
+                    <span class="white-text">
+                        <p>
+                            <b>
+                                Title: Associate Enterprise ETL Developer
+                            </b>
+                            <br>
+
+                            Jan 2021 – Oct 2021
+
+                            <br>
+                            <b>
+                                Organization: Finastra, Bangalore, India
+                            </b>
+                            <br>
+                            <b>
+                                Tech Stack: HTML, CSS, JavaScript, Java, Python, Linux, MuleSoft, JIRA, Git, GitHub,
+                                Docker
+                            </b>
+                            <br>
+                            <br>
+                            • Leveraged PowerShell scripting and MuleSoft connectors to spearhead a new project,
+                            facilitating seamless execution of files on a remote Windows server.
+                            <br>
+                            • Developed a Python script for extracting historical logs from online sources, storing them
+                            in
+                            Excel format for enhanced data analysis across multiple applications. This streamlined the
+                            process of investigating specific data log requests, improving overall efficiency.
+
+                        </p>
+                    </span>
+                </div>
+            </div>
+
+            <div class="col s12 m4">
+                <div class="card-panel teal">
+                    <span class="white-text">
+                        <p>
+                            <b>
+                                Title: Software Development Intern
+                            </b>
+                            <br>
+
+                            Apr 2019 – Nov 2020
+                            <br>
+                            <b>
+                                Organization: WhatRocks, Virtual, India
+                            </b>
+                            <br>
+                            <b>
+                                Tech Stack: Tech Stack: Vue JS, React JS, Redux, Springboot, React Native, Flutter,
+                                Java,
+                                Agile, InVisionApp, Git
+                            </b>
+                            <br>
+                            <br>
+                            • Constructed a dynamic customer website using Vue.js, leveraging Spring Boot as the Java
+                            Backend Server. Implemented UI designs sourced from the design team through InVisionApp for
+                            a
+                            pioneering blockchain technology project.
+                            <br>
+                            • Adapted the server to accommodate a cross-platform mobile application, developed with
+                            React
+                            Native and Flutter, ensuring compatibility with both iOS and Android platforms.
+                            <br>
+                            • Spearheaded the implementation of Selenium and Jest tests for automated testing,
+                            significantly
+                            enhancing efficiency by 90% for product design testers. Integrated async/await
+                            functionalities
+                            for improved user input handling in specific scenarios.
+
+                        </p>
+                    </span>
+                </div>
+            </div>
+
+            <div class="col s12 m4">
+                <div class="card-panel teal">
+                    <span class="white-text">
+                        <p>
+                            <b>
+                                Title: Django Developer Intern
+                            </b>
+                            <br>
+
+                            Jun 2019 – Jul 2019
+
+                            <br>
+                            <b>
+                                Organization: CFEES - Defence Research & Development Organisation (DRDO), New Delhi,
+                                India
+                            </b>
+                            <br>
+                            <b>
+                                Tech Stack: Django, Python, SQLite, Agile, Git, GitHub, Linux
+                            </b>
+                            <br>
+                            <br>
+                            • Led the development and implementation of an enterprise-level Inventory Management System
+                            using Django, ensuring seamless deployment on the DRDO CFEES Linux server on-premises.
+
+
+                        </p>
+                    </span>
+                </div>
+            </div>
+
+            <div class="col s12 m4">
+                <div class="card-panel teal">
+                    <span class="white-text">
+                        <p>
+                            <b>
+                                Title: Web Development Intern
+                            </b>
+                            <br>
+
+                            Jun 2018 – Dec 2018
+
+                            <br>
+                            <b>
+                                Organization: Finalytics Commercial Technologies Pvt Ltd., Virtual, India
+                            </b>
+                            <br>
+                            <b>
+                                Tech Stack: React, JSON, Java, Git, ReactJS
+                            </b>
+                            <br>
+                            <br>
+                            • Skillfully transformed an existing Java application to the React framework, entailing an
+                            extensive overhaul of Java data structures such as Strings and Structs into contemporary
+                            JSON Objects. Pivotal to this migration was the development of new API calls, seamlessly
+                            integrated into the porting process.
+
+
+                        </p>
+                    </span>
+                </div>
+            </div>
+
+
+
+
+
+        </div>
+
+
+        <!-- Projects -->
+        <h5>PROJECTS</h5>
+
+        <div class="row">
+            <div class="col s6">
+                <div class="card-panel">
+                    <span class="black-text">
+                        <p><b>
+                                WAV to MIDI Converter Website (University of Windsor)
+                            </b>
+                            <br>
+                            May 2022 – Aug 2022
+                            <br>
+                            <b>
+                                Tech Stack: APIs, HTML, JavaScript, CSS, Materializecss, Supabase (AWS)
+                            </b>
+                            <br>
+                            <br>
+                            • Reverse-engineered an existing WAV to MIDI conversion website and integrated its
+                            backend system
+                            into our webpage.
+                            <br>
+                            • Users can input a WAV file, and the resulting MIDI file is stored using Supabase. The
+                            website
+                            design is based on the Material theme.
+                            <br>
+                            • Successfully completed the project within a remarkable two-day timeframe, well ahead
+                            of the two-week deadline; <a href="https://www.youtube.com/watch?v=qArRpTn-FEQ"
+                                target="_blank"> Link to YouTube</a>
+                        </p>
+                    </span>
+                </div>
+            </div>
+
+            <div class="col s6">
+                <div class="card-panel">
+                    <span class="black-text">
+                        <p><b>
+                                Email for Visually Challenged (Northern India Engineering College)
+                            </b>
+                            <br>
+                            Jan 2020 – Jun 2020
+                            <br>
+                            <b>
+                                Tech Stack: JavaScript, HTML, Addons, Chrome Extension, Devtools, Git, GitHub
+                            </b>
+                            <br>
+                            <br>
+                            • Devised a new Chrome Extension for the coursework with a team of 3; Facilitated visually
+                            challenged individuals to access email in a problem-free manner; Project Demo on
+                            <a href="https://youtu.be/D-FxhMX27zA" target="_blank"> YouTube</a> and <a
+                                href="https://github.com/suhailsinghbains/Voice-E-mail-WebExt" target="_blank">
+                                Open-source code on GitHub</a>.
+
+
+                        </p>
+                    </span>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="card">
+            <div class="card-content">
+                <h5>Some more PROJECTS</h5>
+            </div>
+            <div class="card-tabs">
+                <ul class="tabs tabs-fixed-width">
+                    <li class="tab"><a class="active" href="#test5">E-Learning WebApp</a></li>
+                    <li class="tab"><a href="#test6">Client-Server File Display</a></li>
+                    <li class="tab"><a href="#test7">Web Search Engine </a></li>
+                    <li class="tab"><a href="#test8">Women Safety </a></li>
+                </ul>
+            </div>
+            <div class="card-content grey lighten-4">
+                <div id="test5">
+                    <div class="card-panel">
+                        <span class="black-text">
+                            <p><b>
+                                    E-Learning WebApp (University of Windsor)
+                                </b>
+                                <br>
+                                May 2022 – Aug 2022
+                                <br>
+                                <b>
+                                    Tech Stack: Django, Python, Models, SQLite
+                                </b>
+                                <br>
+                                <br>
+                                • Developed a web application with distinct user roles, including students and
+                                administrators, each accessing dedicated webpages.
+                                <br>
+                                • Implemented an object-oriented structure using multiple models and inheritance,
+                                incorporating robust validation mechanisms within each user's profile;
+                                <a href="https://github.com/COMP8347/Django_Project" target="_blank"> Open-source code
+                                    on GitHub</a>
+
+
+                            </p>
+                        </span>
+                    </div>
+                </div>
+                <div id="test6">
+                    <div class="card-panel">
+                        <span class="black-text">
+                            <p><b>
+                                    Client-Server File Display (University of Windsor)
+                                </b>
+                                <br>
+                                Jan 2022 – Apr 2022
+                                <br>
+                                <b>
+                                    Tech Stack: Linux, Bash, Networking, C, Threads, Communication
+                                </b>
+                                <br>
+                                • Utilized multithreading to retrieve and consolidate data from client and server files,
+                                presenting it in a specific format as part of the coursework with a team of 2;
+                                <a href="https://youtu.be/HsDBX__0dXo" target="_blank"> Link to YouTube</a>
+
+
+                            </p>
+                        </span>
+                    </div>
+
+                </div>
+                <div id="test7">
+                    <div class="card-panel">
+                        <span class="black-text">
+                            <p><b>
+                                    Web Search Engine (University of Windsor)
+                                </b>
+                                <br>
+                                Sep 2021 – Dec 2021
+                                <br>
+                                <b>
+                                    Tech Stack: Java, Parser, Algorithm, Tree, Search Engine
+                                </b>
+                                <br>
+                                • Developed an early-stage web search engine as part of the coursework with a team of 3,
+                                <a href="https://youtu.be/8yhoVgFLeGs" target="_blank"> Link to YouTube</a>
+
+
+
+                            </p>
+                        </span>
+                    </div>
+
+                </div>
+                <div id="test8">
+                    <div class="card-panel">
+                        <span class="black-text">
+                            <p><b>
+                                    Women Safety (MOM 2k18 competition)
+                                </b>
+                                <br>
+                                Jan 2018 – Jan 2018
+                                <br>
+                                <b>
+                                    Tech Stack: Node JS, Git, GitHub, Express JS, Next JS, Android, PostgreSQL, Git,
+                                    GitHub, JavaScript
+                                </b>
+                                <br>
+                                •Individually devised Android (Java) Application and Leveraged Local PostgreSQL as the
+                                database for storing IMEI information and location data;
+                                <a href="https://github.com/suhailsinghbains/Women-Safety-App" target="_blank">
+                                    Open-source Android App
+                                    code on GitHub</a> and <a
+                                    href="https://github.com/suhailsinghbains/Women-Safety-App-Back-end"
+                                    target="_blank"> NodeJS
+                                    Back-end code on GitHub</a>
+
+
+
+
+                            </p>
+                        </span>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <br>
+        <!-- Education -->
+        <h5>EDUCATION</h5>
+        <div class="row">
+            <div class="col s6">
+                <div class="card-panel education-card" style="background-color: #ee6e73;">
+                    <span class="white-text">
+                        <p>Master of Applied Computing - Artificial Intelligence Stream
+                            <br> University of Windsor, Windsor, ON
+                            <br> Sep 2021 – Apr 2023 89.4%
+                        </p>
+
+                    </span>
+                </div>
+            </div>
+            <div class="col s6">
+                <div class="card-panel education-card" style="background-color: #ee6e73;">
+                    <span class="white-text">
+                        <p>Bachelor of Technology (Computer Science Engineering)
+                            <br> Northern India Engineering College, Delhi, India
+                            <br> Aug 2016 – Sep 2020 85.7%
+                        </p>
+                    </span>
+                </div>
+            </div>
+        </div>
+
+        <!-- Certifications -->
+
+        <div class="row">
+            <div class="col s6">
+                <h5>CERTIFICATIONS</h5>
+                <ul class="collection">
+                    <li class="collection-item">Microsoft Certified: Azure Fundamentals</li>
+                    <li class="collection-item">Google Crash Course Track - Application Development</li>
+                    <li class="collection-item">Microsoft Student Learn Ambassador Beta</li>
+                    <li class="collection-item">MuleSoft Certified Developer</li>
+                </ul>
+            </div>
+            <div class="col s6">
+                <h5>OPEN-SOURCE CONTRIBUTIONS</h5>
+                <ul class="collection">
+                    <li class="collection-item">Mozilla Addons [2019] [2018]</li>
+                    <li class="collection-item">Mozilla Hubs [Hash Router]</li>
+                    <li class="collection-item">Firefox Devtools [Gecko-Profiler-Addon]</li>
+                    <li class="collection-item">.Net Contributor [Recognition]</li>
+                    <li class="collection-item">Published Addons [Easy Fill]</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <!-- Materialize JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            var tabs = document.querySelectorAll('.tabs');
+            M.Tabs.init(tabs);
+        });
+    </script>
+</body>
+
+</html>
